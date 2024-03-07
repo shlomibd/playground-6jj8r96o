@@ -14,7 +14,7 @@ public class UniverseTest {
 		try {
 			int[] stockPricesYesterday = new int[] {10, 7, 5, 8, 11, 9};
 			Assert.assertEquals("Running StockPrice.getMaxProfit(stockPricesYesterday)...", 6, StockPrice.getMaxProfit(stockPricesYesterday));
-			Assert.assertEquals("Running StockPrice.getMaxProfit(null)...", -1, StockPrice.getMaxProfit(null)));
+			Assert.assertEquals("Running StockPrice.getMaxProfit(null)...", -1, StockPrice.getMaxProfit(null));
 			success(true);
 
 			if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/StockPrice.java"))) {
