@@ -12,11 +12,12 @@ public class UniverseTest {
 	@Test
 	public void test() throws FileNotFoundException {
 		try {
-			Assert.assertEquals("Running Universe.countAllStars(2, 3)...", 5, Universe.countAllStars(2, 3));
-			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
+			int[] stockPricesYesterday = new int[] {10, 7, 5, 8, 11, 9};
+			Assert.assertEquals("Running StockPrice.getMaxProfit(stockPricesYesterday)...", 6, StockPrice.getMaxProfit(stockPricesYesterday));
+			Assert.assertEquals("Running StockPrice.getMaxProfit(null)...", -1, StockPrice.getMaxProfit(null)));
 			success(true);
 
-			if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/Universe.java"))) {
+			if (existsInFile("Arrays.stream(galaxies).sum()", new File("./src/main/java/com/yourself/StockPrice.java"))) {
 				msg("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
 				msg("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
 				msg("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
