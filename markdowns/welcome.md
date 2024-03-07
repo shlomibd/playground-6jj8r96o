@@ -1,4 +1,4 @@
-# Welcome!
+# Max Profit!
 
 Suppose we could access yesterday's stock prices as an array, where:
 The indices are the time in minutes past trade opening time, which was
@@ -19,11 +19,7 @@ No "shorting"—you must buy before you sell. You may not buy and sell in the sa
 time step (at least 1 minute must pass).
 
 
-# Hands-on Demo
+# FindMaxProfit
 
 @[Show Me the Money?]({"stubs": ["src/main/java/com/yourself/StockPrice.java"], "command": "com.yourself.StockPriceTest#test"})
 
-
-# Visual and Interactive Content
-
-Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal within your contribution. Please refer to the [documentation](https://tech.io/doc) to learn more about the viewer integrations.
